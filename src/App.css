@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+body {
+  --mainColor: #0b4f6c;
+  text-align: center;
+
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 5rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+.nav-container, .footer-container {
+  background-color: var(--mainColor);
+  min-height: 10vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+}
+.nav-list{
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+
+/* WEEK */
+.week-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
